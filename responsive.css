@@ -1,0 +1,166 @@
+@media(max-width: 1075px){
+    .top header ul{
+        padding-left: 100px;
+    }
+    .top__img img{
+        width: 450px;
+        height: 350px;
+    }
+
+}
+
+@media(max-width: 900px){
+    .top__img img{
+        width: 250px;
+        height: 180px;
+    }
+    .menu{
+        visibility: visible;
+    }
+    .top header{
+        padding: 30px 30px;
+    }
+    .top header ul{
+        display: none;  
+    }
+    .phone__text{
+        margin-left: 70px;
+    }
+    .phone{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .top__content{
+        width: 350px;
+    }
+    .health__bot-item{
+        padding: 10px 5px;
+    }
+    .health__bot-item img{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 660px){
+    .menu{
+        left: 200px;
+    }
+    .top header{
+        padding: 30px 0;
+    }
+    .header ul{
+        width: 300px;
+    }
+    .dw__app{
+        right: 30px;
+    }
+    .top__img img{
+        display: none;
+    }
+    .phone{
+        display:unset;
+    }
+    .phone__text{
+        text-align: center;
+        margin: 0 auto;
+        right: 0;
+    }
+
+    .info__inner{
+        min-width: 550px;
+    }
+}
+
+@media(max-width: 600px){
+    .top__background{
+        display: none;
+    }
+    .content{
+        justify-content: center;
+        align-items: center;
+    }
+    .info__inner{
+        min-width: 450px;
+    }
+    .square5{
+        display: none;
+    }
+    .info__text{
+        margin-top: 230px;
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .info__video{  
+        margin-bottom: 0;
+        margin-right: 0;
+        width: 300px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .info__content{
+        display: unset;
+        top: 100px;
+    }
+    .square8{
+        display: none;
+    }
+    .square9{
+        display: none;
+    }
+}
+
+@media(max-width: 500px){
+    .menu{
+        left: 10px;
+        top: 80px;
+    }
+    .mobile{
+        left: 30px;
+    }
+    .phone__text h2{
+        width: 200px;
+    }
+    .health__bot{
+        display: unset;
+    }
+    .health__bot-item{
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    .square7{
+        display: none;
+    }
+    .square10{
+        display: none;
+    }
+    .sci{
+        margin-top: 10px;   
+    }
+}
+
+@media(max-width: 460px){
+    .info__inner{
+        min-width: 300px;
+    }
+    .info__inner span{
+        font-size: 30px;
+    }
+    .info__inner p{
+        font-size: 8px;
+    }
+    .sci{
+        display: unset;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding-left: 70px;
+    }
+    .sci img:nth-child(2){
+        padding-left: 70px;
+    }
+
+}
+
